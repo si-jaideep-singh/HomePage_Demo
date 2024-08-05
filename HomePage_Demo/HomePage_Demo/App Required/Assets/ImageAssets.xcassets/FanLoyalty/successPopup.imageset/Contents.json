@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "successPopup.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

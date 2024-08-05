@@ -1,0 +1,128 @@
+{
+    "resulticksPayload": {
+        "pushType": 2,
+        "customParams": "",
+        "title": "First title",
+        "url": "",
+        "isContent": true,
+        "category": "",
+        "ttl": "2029-07-09T00:00:00",
+        "tag": "Welcome,",
+        "sourceType": 1,
+        "customActions": [
+            {
+                "actionName": "Maybe Later",
+                "actionType": "maybelater",
+                "actionId": 4,
+                "duration": "1 Minute(s)"
+            }
+        ],
+        "body": "First bdoy",
+        "id": "c2G|E|01B|wm|N2XU5|27207|20210625120759",
+        "navigationScreen": "DashboardViewController:SIDDashboard",
+        "bannerStyle": 3,
+        "isCarousel": true,
+        "mobileFriendlyUrl": "https:\/\/resulticks.team\/?did=cust_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=E&cid=885c6eb7-f8aa-4d73-9943-878629ab2c06&rid=N2XU5&sid=7db245a8-1606-4d7c-8033-79448119b7f0&chl=sm&utm_source=RE&utm_medium=comm&utm_campaign=01B",
+        "channelName": "Cards",
+        "channelId": "4",
+        "carousel": [ 
+            {
+                "shortDesc": "",
+                "title": "Slider 1 title",
+                "customActions": [
+                    {
+                        "actionName": "Click here",
+                        "actionType": "smartlink",
+                        "actionId": 6,
+                        "activityName": "/creditcard",
+                        "mobileFriendlyUrl": "https://www.google.com?did=cust_f4f0811b_658c_45e7_9432_2f307b93c235&bid=I&cid=33b2ca55-b8ea-49ea-b7cb-7ab6aa514148&rid=8WSS3&sid=e94b8fd8-e206-4721-be26-144081b0c4ff&chl=sm&utm_source=RE&utm_medium=comm&utm_campaign=Khm",
+                        "customParams": "{\n  \"screenName\" : \"HomeLoan\",\n  \"screenId\" : 255\n}"
+                    },
+                    {
+                        "actionName": "Snooze",
+                        "actionType": "maybelater",
+                        "actionId": 4,
+                        "duration": "1 Minute(s)"
+                    }
+                ],
+                "isContent": true,
+                "body": "Slider 1 body",
+                "sourceType": 4,
+                "url": "https://3c5239fcccdc41677a03-1135555c8dfc8b32dc5b4bc9765d8ae5.ssl.cf1.rackcdn.com/Adver--Banners--150x750px-RIOT.jpg"
+            },
+            {
+                "shortDesc": "",
+                "title": "Slider 2 title",
+                "customActions": [
+                    {
+                        "actionName": "Maybe Later",
+                        "actionType": "maybelater",
+                        "actionId": 4,
+                        "duration": "1 Minute(s)"
+                    },
+                    {
+                        "actionName": "Dismiss",
+                        "actionType": "dismiss",
+                        "actionId": 3
+                    }
+                ],
+                "isContent": true,
+                "body": "Slider 2 body",
+                "sourceType": 3,
+                "url": "https://style2.shoespie.com/images/FlashSale/bann2.gif"
+            },
+            {
+                "shortDesc": "",
+                "title": "Slider 3 title",
+                "customActions": [
+                    {
+                        "actionName": "Browse",
+                        "actionTextColor": "#ffffff",
+                        "actionBgColor": "#123123",
+                        "actionType": "weburl",
+                        "actionId": 7,
+                        "url": "http://www.apple.com"
+                    },
+                    {
+                        "actionName": "Dismiss",
+                        "actionTextColor": "#000000",
+                        "actionBgColor": "#FFFFFF",
+                        "actionType": "dismiss",
+                        "actionId": 3
+                    }
+                ],
+                "isContent": true,
+                "body": "Slider 3 body",
+                "sourceType": 2,
+                "url": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+            },
+            {
+                "shortDesc": "",
+                "title": "Slider 4 title",
+                "customActions": [
+                    {
+                        "actionName": "Call",
+                        "actionTextColor": "#ffffff",
+                        "actionBgColor": "#123123",
+                        "actionType": "call",
+                        "actionId": 7,
+                        "url": "8072275082"
+                    },
+                    {
+                        "actionName": "Share",
+                        "actionTextColor": "#ffffff",
+                        "actionBgColor": "#123123",
+                        "actionType": "share",
+                        "actionId": 6,
+                        "url": "http://www.apple.com"
+                    }
+                ],
+                "isContent": true,
+                "body": "Slider 4 body",
+                "sourceType": 1,
+                "url": "https://www.apple.com"
+            }
+        ]
+    },
+    "to": "eWvimIXyTSmNtizmu-sqrw:APA91bHJp43njbCgRLPCGh6_MBRXtpbWeUZElpJ0XjSUq0SjJ7QDSoo5kwIwLt0aLUp90W17xlt883yGh6H0btEA1Azqa63QP3wWom6Heo0Mq_DcMIfpFS0JojPRcQ9MtrBxQS30wAIV"
+}

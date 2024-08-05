@@ -1,0 +1,47 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HomePage_Demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SDWebImage'
+  pod 'youtube-ios-player-helper'
+  pod 'GoogleSignIn', '6.2.4'
+  pod 'GoogleUtilities', '7.13.0'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
+  pod 'EasyTipView'
+  pod 'KeychainSwift'
+  pod 'JWTDecode', '~> 2.6'
+  pod 'ActionSheetPicker-3.0'
+  pod 'IQKeyboardManagerSwift'
+  pod 'FirebaseRemoteConfig'
+  pod 'FirebaseCrashlytics'
+  pod 'FirebasePerformance'
+  pod 'FirebaseAnalytics'
+  pod 'Firebase/Auth'
+  pod 'MBProgressHUD'
+  pod 'FirebaseMessaging'
+  pod 'OtplessSDK', '1.1.1'
+  pod 'REIOSSDK_26670660_d1c4_4fdd_a7f5_cbf5450b523d'
+  # Pods for HomePage_Demo
+
+  target 'HomePage_DemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'HomePage_DemoUITests' do
+    # Pods for testing
+  end
+
+end
+post_install do |installer|
+    installer.generated_projects.each do |project|
+        project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+            end
+        end
+    end
+end

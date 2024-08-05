@@ -1,0 +1,113 @@
+{
+    "to": "cYu0TkO0mF0:APA91bEI7YECjC_OJvP71jn9C9UefIAievdW0ZU9JLVRpinTh3eyre367TMxJMKnyqDyBWA-txnCJPB3su0thYuKJSTcajzHz4gsOTKjJ9uvahvtKpSZZvx9wXcOVADb0OKt0AHTpdBO",
+    "data": {
+        "customParams": {},
+        "customActions": [
+        ],
+        "id": "c2G|E|xO5|38|R75EK|43128|Bulk|20220303223106",
+        "navigationScreen": "com.visionretail.view.activity.LauncherActivity",
+        "MobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=E&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&chl=sm&utm_source=RE&utm_medium=comm&utm_campaign=xO5",
+        "category": "DashboardFragment",
+        "pushType": 2,
+        "ttl": "2022-04-09T00:00:00",
+        "isCarousel": "true",
+        "channelName": "Home loan",
+        "channelId": 2,
+        "title": "😍CRSL IMP SOFF A - M03😍 - rsltks9.arun@gmail.com ",
+        "body": "😘❤️Import A❤️😘",
+        "tag": "MPSOFF IMP,",
+        "bannerStyle": 3,
+        "isContent": "true",
+        "titleColor": "#333333",
+        "bodyColor": "#333333",
+        "contentBgColor": "#ffffff",
+        "sound": "inflicted",
+        "sourceType": 1,
+        "url": "https://resulticks.team/EmailHeader/NotificationHtmlContent?dbid=camp_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=1&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&pid=R75EK&jobId=43128&jobType=Bulk&Split=A&notificationtype=Push&levelno=1&actionid=&parentchannelid=",
+        "carousel": [
+            {
+                "customActions": [
+                    {
+                        "actionName": "Dismiss",
+                        "actionTextColor": "#ce0606",
+                        "actionBgColor": "#0bc521",
+                        "actionType": "dismiss",
+                        "actionId": 3
+                    }
+                ],
+                "title": "😍CRSL IMP SOFF A - M03😍 - rsltks9.arun@gmail.com ",
+                "body": "😘❤️Import A❤️😘",
+                "isContent": "true",
+                "titleColor": "#333333",
+                "bodyColor": "#333333",
+                "contentBgColor": "#ffffff",
+                "sound": "inflicted",
+                "sourceType": 1,
+                "url": "https://resulticks.team/EmailHeader/NotificationHtmlContent?dbid=camp_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=1&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&pid=R75EK&jobId=43128&jobType=Bulk&Split=A&notificationtype=Push&levelno=1&actionid=&parentchannelid="
+            },
+            {
+                "customActions": [
+                    {
+                        "actionName": "👈Click B👉",
+                        "actionTextColor": "#d11111",
+                        "actionBgColor": "#0bc521",
+                        "actionType": "smartlink",
+                        "actionId": 6,
+                        "activityName": "com.visionretail.view.activity.LauncherActivity",
+                        "fragmentName": "DashboardFragment",
+                        "MobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=E&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&chl=sm&utm_source=RE&utm_medium=comm&utm_campaign=xO5",
+                        "customParams": {}
+                    }
+                ],
+                "title": "😍CRSL IMP SOFF B - M03😍 - rsltks9.arun@gmail.com",
+                "body": "😘❤️Import B❤️😘",
+                "isContent": "true",
+                "titleColor": "#333333",
+                "bodyColor": "#333333",
+                "contentBgColor": "#ffffff",
+                "sound": "inflicted",
+                "sourceType": 1,
+                "url": "https://resulticks.team/EmailHeader/NotificationHtmlContent?dbid=camp_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=1&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&pid=R75EK&jobId=43128&jobType=Bulk&Split=B&notificationtype=Push&levelno=1&actionid=&parentchannelid="
+            },
+            {
+                "customActions": [
+                    {
+                        "actionName": "Dismiss",
+                        "actionTextColor": "#ca0606",
+                        "actionBgColor": "#0bc521",
+                        "actionType": "dismiss",
+                        "actionId": 3
+                    }
+                ],
+                "title": "😍CRSL IMP SOFF C - M03😍 - rsltks9.arun@gmail.com",
+                "body": "😘❤️Import C❤️😘",
+                "isContent": "true",
+                "titleColor": "#333333",
+                "bodyColor": "#333333",
+                "contentBgColor": "#ffffff",
+                "sourceType": 1,
+                "url": "https://resulticks.team/EmailHeader/NotificationHtmlContent?dbid=camp_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=1&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&pid=R75EK&jobId=43128&jobType=Bulk&Split=C&notificationtype=Push&levelno=1&actionid=&parentchannelid="
+            },
+            {
+                "customActions": [
+                    {
+                        "actionName": "👈Click D👉",
+                        "actionTextColor": "#db0b0b",
+                        "actionBgColor": "#0bc521",
+                        "actionType": "weburl",
+                        "actionId": 6,
+                        "url": "https://www.resulticks.com"
+                    }
+                ],
+                "title": "😍CRSL IMP SOFF D - M03😍 - rsltks9.arun@gmail.com",
+                "body": "😘❤️Import D❤️😘",
+                "isContent": "true",
+                "titleColor": "#333333",
+                "bodyColor": "#333333",
+                "contentBgColor": "#ffffff",
+                "sourceType": 1,
+                "url": "https://resulticks.team/EmailHeader/NotificationHtmlContent?dbid=camp_ffe3b258_7a3b_402f_a32f_3d77beea1286&bid=1&cid=06e075ba-79b7-4c90-9216-83ac271f3dee&rid=R75EK&sid=49ce6b41-5b5e-4f04-8800-0a81f6c19431&pid=R75EK&jobId=43128&jobType=Bulk&Split=D&notificationtype=Push&levelno=1&actionid=&parentchannelid="
+            }
+        ]
+    }
+}

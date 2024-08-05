@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Fixtures_lsgLogo.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

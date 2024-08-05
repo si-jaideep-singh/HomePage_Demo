@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "BG-compressed.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "contentInjection": [
+        {
+            "activityName":"ContentInjectionVC:Vision_Bank.ContentInjectionVC",
+            "fragementName":"",
+            "contentId":"1",
+            "contentFields":[
+                {
+                    "viewId":"1001",
+                    "viewType":"img",
+                    "value":"https://images.squarespace-cdn.com/content/v1/5b044f02c258b4052b14c94a/1527525262378-H3VNDJC9KPJ431KY9CIZ/ke17ZwdGBToddI8pDm48kBtpJ0h6oTA_T7DonTC8zFdZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIBqmMCQ1OP129tpEIJko8bi_9nfbnt8dRsNvtvnXdL8M/logo-square-960x960.png"
+                },
+                {
+                    "viewId":"1002",
+                    "viewType":"textView",
+                    "value":"This can be set as new description"
+                },
+                {
+                    "viewId":"1003",
+                    "viewType":"editText",
+                    "value":"This can be description"
+                },
+                {
+                    "viewId":"1004",
+                    "viewType":"button",
+                    "value":"Submit"
+                }
+            ]
+        }
+    ]
+}
+
+

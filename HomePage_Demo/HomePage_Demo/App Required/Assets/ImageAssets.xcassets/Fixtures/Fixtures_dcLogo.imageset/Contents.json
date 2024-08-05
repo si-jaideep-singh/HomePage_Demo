@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Fixtures_dcLogo.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

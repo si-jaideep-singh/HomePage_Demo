@@ -1,0 +1,6 @@
+framework module Pods_HomePage_Demo {
+  umbrella header "Pods-HomePage_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

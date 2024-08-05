@@ -1,0 +1,47 @@
+{
+    "status": true,
+    "message": "scucess",
+    "brandFormFieldCapture": [
+        {
+            "identifier": "501",
+            "captureType": "Value",
+            "screenName": "ApplicationFormViewController",
+            "formId": "10",
+            "result": "",
+            "formName": "Sample",
+            "fieldName": "Email",
+            "fieldType": "textField",
+            "markAsSubmit": false,
+            "requiredfield": false
+        },
+        {
+            "identifier": "502",
+            "captureType": "Value",
+            "screenName": "ApplicationFormViewController",
+            "formId": "10",
+            "result": "1234567890",
+            "formName": "Sample",
+            "fieldName": "Phone",
+            "fieldType": "textField",
+            "markAsSubmit": false,
+            "requiredfield": true
+        },
+        {
+            "identifier": "5001",
+            "captureType": "Click",
+            "screenName": "ApplicationFormViewController",
+            "formId": "10",
+            "result": "",
+            "formName": "Sample",
+            "fieldName": "Submit44",
+            "fieldType": "button",
+            "markAsSubmit": true,
+            "requiredfield": false
+        }
+    ]
+}
+
+
+
+
+

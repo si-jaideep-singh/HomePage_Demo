@@ -1,0 +1,248 @@
+{
+    "status": true,
+    "message": "Successful",
+    "notifications": [
+        {
+          "notification": {
+
+          },
+          "data": {
+            "resul": "1234ewogICJjdXN0b21QYXJhbXMiOiB7CiAgICAic2NyZWVuSWQiOiAiNDQiCiAgfSwKICAiY3VzdG9tQWN0aW9ucyI6IFsKICAgIHsKICAgICAgImFjdGlvbk5hbWUiOiAiVW5zdWJzY3JpYmUiLAogICAgICAiYWN0aW9uVGV4dENvbG9yIjogIiMwMDAwMDAiLAogICAgICAiYWN0aW9uQmdDb2xvciI6ICIjRkZGRkZGIiwKICAgICAgImFjdGlvblR5cGUiOiAiVW5zdWJzY3JpYmUiLAogICAgICAiYWN0aW9uSWQiOiA4CiAgICB9LAogICAgewogICAgICAiYWN0aW9uTmFtZSI6ICJNYXliZSBMYXRlciIsCiAgICAgICJhY3Rpb25UZXh0Q29sb3IiOiAiIzAwMDAwMCIsCiAgICAgICJhY3Rpb25CZ0NvbG9yIjogIiNGRkZGRkYiLAogICAgICAiYWN0aW9uVHlwZSI6ICJtYXliZWxhdGVyIiwKICAgICAgImFjdGlvbklkIjogNCwKICAgICAgImR1cmF0aW9uIjogIjEgTWludXRlKHMpIgogICAgfQogIF0sCiAgImlkIjogIlBRd3xiWG98Q0IwfEdEfE5QVjZ8MjAyMjA1MTgwOTA5NDQiLAogICJ0aXRsZSI6ICJTUlMgREwzIE5vdGUgYWxlcnQgMThtYXkyMDIy8J+kq/CfpbDwn5iN8J+kqSIsCiAgImNhdGVnb3J5IjogIiIsCiAgImJvZHkiOiAiU1JTIERMMyBOb3RlIGFsZXJ0IDE4bWF5MjAyMvCfmIrwn5iX8J+YmPCfpKnwn5iNIiwKICAiZHVyYXRpb24iOiAiIiwKICAiYWN0aW9uTmFtZSI6ICIiLAogICJuYXZpZ2F0aW9uU2NyZWVuIjogIkFwcGxpY2F0aW9uRm9ybVZpZXdDb250cm9sbGVyOlNJRE9yZGVyIiwKICAibW9iaWxlRnJpZW5kbHlVcmwiOiAid3d3LmFwcGxlLmNvbT9kaWQ9Y3VzdF9jNDM2M2E1M180ZDE5XzRlYjlfYjgzZV9kM2JhMWYxZjlmMWUmYmlkPTAmY2lkPThkYTNkZmYwLTc2OWQtNDBjOS1hMTE0LTdlYzYyNWM0NDVjOCZyaWQ9TlBWNiZzaWQ9ZDUyNmQwMzMtMTYwZi00MjNjLWJlZDAtMzQyMzNmYTE4MTJjJmNobD1tcCZ1dG1fc291cmNlPVJlc3VsdGlja3MmdXRtX21lZGl1bT1tcCZ1dG1fY2FtcGFpZ249U1JTIERMMyBOb3RlIGFsZXJ0IDE4bWF5MjAyMl9DQjAmcmVzdWxpZD1QUXdZbGh2ZkVOQ01IeGxiWHhiVWpGZGZFZEUiLAogICJwdXNoVHlwZSI6IDEsCiAgInR0bCI6ICIyMDIyLTA4LTE5VDE0OjM5OjQ0IiwKICAiaXNDb250ZW50IjogInRydWUiLAogICJzdWJUaXRsZSI6ICJTUlMgREwzIE5vdGUgYWxlcnQgMThtYXkyMDIy8J+kq/CfpKvwn6SrIiwKICAidGl0bGVDb2xvciI6ICIjM2M1ODUxIiwKICAiYm9keUNvbG9yIjogIiM3ZjVjNjQiLAogICJjb250ZW50QmdDb2xvciI6ICIjRkZGRkZGIiwKICAic291bmQiOiAiTm90aWZpY2F0aW9uIiwKICAic291cmNlVHlwZSI6IDQsCiAgInVybCI6ICJodHRwczovL3dhcGkuc21hcnRkeC5jby9JbWFnZXMvTW9iaWxlcHVzaC9mOGQwNDYyMi1jYjI3LTQ2YzktOWY1Zi1jNDMyZDE5OTZlYzQuanBnIgp9"
+          },
+          "apns": {
+            "headers": {
+              "apns-push-type": "background",
+              "apns-priority": "5"
+            },
+            "payload": {
+              "aps": {
+                "content-available": 1
+              }
+            }
+          },
+          "priority": "high",
+          "content_available": true,
+          "to": "e0JBslLV-0tqpAQE65ksdd:APA91bG5DUZwJbb2KcslVyJY55CuBfAgBTLW7lFXlp9yyG2K4uC-QBZEV8lQPolY9MI_jR9JC7_ykvHRhq6qLtKJlZV6FHPqUPEcK8LPe805VqsjBByt_a3kFJWzdSsWvOnj0pEFaTpx"
+        },
+        {
+          "notification": {},
+          "data": {
+            "customParams": {},
+            "customActions": [
+              {
+                "actionName": "Dismiss",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "dismiss",
+                "actionId": 3
+              },
+              {
+                "actionName": "Maybe Later",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "maybelater",
+                "actionId": 4,
+                "duration": "20 Minute(s)"
+              }
+            ],
+            "id": "PQw|bXo|CD0|cd|NPV6|20220517113115-4",
+            "title": "Camera note-4",
+            "category": "",
+            "body": "We have exclusive offer bill pay. Use it and get attractive cash back amount 😘🤩😋😜",
+            "duration": "",
+            "actionName": "",
+            "navigationScreen": "DashboardViewController:SIDDashboard",
+            "mobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_c4363a53_4d19_4eb9_b83e_d3ba1f1f9f1e&bid=0&cid=94f42a05-0e40-4dc6-af98-4063efe1bf0d&rid=NPV6&sid=fe258156-ee05-4d0d-9f90-3e7d525a10d0&chl=mp&utm_source=Resulticks&utm_medium=mp&utm_campaign=App Open Normal alert Push_CD0&resulid=PQwYlhvfENEMHxlbXxbUjFdfGNk",
+            "pushType": 1,
+            "ttl": "2022-10-17T20:01:15",
+            "isContent": "true",
+            "subTitle": "Offer 30% 😍",
+            "titleColor": "#000000",
+            "bodyColor": "#000000",
+            "contentBgColor": "#FFFFFF",
+            "sound": "Notification",
+            "sourceType": 4,
+            "url": "https://www.gstatic.com/images/icons/material/system/2x/photo_camera_gm_grey500_24dp.png"
+          },
+          "apns": {
+            "headers": {
+              "apns-push-type": "background",
+              "apns-priority": "5"
+            },
+            "payload": {
+              "aps": {
+                "content-available": 1
+              }
+            }
+          },
+          "priority": "high",
+          "content_available": true,
+          "to": "eKsG4H57oUi9qsgz7XGRXq:APA91bE2QlE3044RlNPN-fySLXYn8C_q4H8E-0zcTZbDr_H58UXILufy-2-CJRQdVEZtrajC7B_bnGO6E1ynbQPN4H-pq8NcvfDRV_97XXkZVVHbAs5Wc3JLG7ZUm6bqme3yiRy0yMfX"
+        },
+        {
+          "notification": {},
+          "data": {
+            "customParams": {},
+            "customActions": [
+              {
+                "actionName": "Dismiss",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "dismiss",
+                "actionId": 3
+              },
+              {
+                "actionName": "Maybe Later",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "maybelater",
+                "actionId": 4,
+                "duration": "20 Minute(s)"
+              }
+            ],
+            "id": "PQw|bXo|CD0|cd|NPV6|202205171131AB",
+            "title": "Blue line note 2",
+            "category": "",
+            "body": "We have exclusive offer bill pay. Use it and get attractive cash back amount 😘🤩😋😜",
+            "duration": "",
+            "actionName": "",
+            "navigationScreen": "DashboardViewController:SIDDashboard",
+            "mobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_c4363a53_4d19_4eb9_b83e_d3ba1f1f9f1e&bid=0&cid=94f42a05-0e40-4dc6-af98-4063efe1bf0d&rid=NPV6&sid=fe258156-ee05-4d0d-9f90-3e7d525a10d0&chl=mp&utm_source=Resulticks&utm_medium=mp&utm_campaign=App Open Normal alert Push_CD0&resulid=PQwYlhvfENEMHxlbXxbUjFdfGNk",
+            "pushType": 1,
+            "ttl": "2022-08-17T20:01:15",
+            "isContent": "true",
+            "subTitle": "Offer 30% 😍",
+            "titleColor": "#000000",
+            "bodyColor": "#000000",
+            "contentBgColor": "#FFFFFF",
+            "sound": "Notification",
+            "sourceType": 4,
+            "url": "https://www.gstatic.com/ui/v1/menu/light_thumbnail2.png"
+          },
+          "apns": {
+            "headers": {
+              "apns-push-type": "background",
+              "apns-priority": "5"
+            },
+            "payload": {
+              "aps": {
+                "content-available": 1
+              }
+            }
+          },
+          "priority": "high",
+          "content_available": true,
+          "to": "eKsG4H57oUi9qsgz7XGRXq:APA91bE2QlE3044RlNPN-fySLXYn8C_q4H8E-0zcTZbDr_H58UXILufy-2-CJRQdVEZtrajC7B_bnGO6E1ynbQPN4H-pq8NcvfDRV_97XXkZVVHbAs5Wc3JLG7ZUm6bqme3yiRy0yMfX"
+        },
+        {
+          "notification": {},
+          "data": {
+            "customParams": {},
+            "customActions": [
+              {
+                "actionName": "Dismiss",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "dismiss",
+                "actionId": 3
+              },
+              {
+                "actionName": "Maybe Later",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "maybelater",
+                "actionId": 4,
+                "duration": "20 Minute(s)"
+              }
+            ],
+            "id": "PQw|bXo|CD0|cd|NPV6|202205171131AC",
+            "title": "Dark blue line note 3",
+            "category": "",
+            "body": "We have exclusive offer bill pay. Use it and get attractive cash back amount 😘🤩😋😜",
+            "duration": "",
+            "actionName": "",
+            "navigationScreen": "DashboardViewController:SIDDashboard",
+            "mobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_c4363a53_4d19_4eb9_b83e_d3ba1f1f9f1e&bid=0&cid=94f42a05-0e40-4dc6-af98-4063efe1bf0d&rid=NPV6&sid=fe258156-ee05-4d0d-9f90-3e7d525a10d0&chl=mp&utm_source=Resulticks&utm_medium=mp&utm_campaign=App Open Normal alert Push_CD0&resulid=PQwYlhvfENEMHxlbXxbUjFdfGNk",
+            "pushType": 1,
+            "ttl": "2022-08-17T20:01:15",
+            "isContent": "true",
+            "subTitle": "Offer 30% 😍",
+            "titleColor": "#000000",
+            "bodyColor": "#000000",
+            "contentBgColor": "#FFFFFF",
+            "sound": "Notification",
+            "sourceType": 4,
+            "url": "https://www.gstatic.com/ui/v1/menu/dark_thumbnail2.png"
+          },
+          "apns": {
+            "headers": {
+              "apns-push-type": "background",
+              "apns-priority": "5"
+            },
+            "payload": {
+              "aps": {
+                "content-available": 1
+              }
+            }
+          },
+          "priority": "high",
+          "content_available": true,
+          "to": "eKsG4H57oUi9qsgz7XGRXq:APA91bE2QlE3044RlNPN-fySLXYn8C_q4H8E-0zcTZbDr_H58UXILufy-2-CJRQdVEZtrajC7B_bnGO6E1ynbQPN4H-pq8NcvfDRV_97XXkZVVHbAs5Wc3JLG7ZUm6bqme3yiRy0yMfX"
+        },
+        {
+          "notification": {},
+          "data": {
+            "customParams": {},
+            "customActions": [
+              {
+                "actionName": "Dismiss",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "dismiss",
+                "actionId": 3
+              },
+              {
+                "actionName": "Maybe Later",
+                "actionTextColor": "#000000",
+                "actionBgColor": "#FFFFFF",
+                "actionType": "maybelater",
+                "actionId": 4,
+                "duration": "20 Minute(s)"
+              }
+            ],
+            "id": "PQw|bXo|CD0|cd|NPV6|202205171131AD",
+            "title": "dark white line note 4",
+            "category": "",
+            "body": "We have exclusive offer bill pay. Use it and get attractive cash back amount 😘🤩😋😜",
+            "duration": "",
+            "actionName": "",
+            "navigationScreen": "DashboardViewController:SIDDashboard",
+            "mobileFriendlyUrl": "https://conversion09.resulticks.net/?did=cust_c4363a53_4d19_4eb9_b83e_d3ba1f1f9f1e&bid=0&cid=94f42a05-0e40-4dc6-af98-4063efe1bf0d&rid=NPV6&sid=fe258156-ee05-4d0d-9f90-3e7d525a10d0&chl=mp&utm_source=Resulticks&utm_medium=mp&utm_campaign=App Open Normal alert Push_CD0&resulid=PQwYlhvfENEMHxlbXxbUjFdfGNk",
+            "pushType": 1,
+            "ttl": "2022-08-17T20:01:15",
+            "isContent": "true",
+            "subTitle": "Offer 30% 😍",
+            "titleColor": "#000000",
+            "bodyColor": "#000000",
+            "contentBgColor": "#FFFFFF",
+            "sound": "Notification",
+            "sourceType": 4,
+            "url": "https://www.gstatic.com/ui/v1/menu/device_default_thumbnail2.png"
+          },
+          "apns": {
+            "headers": {
+              "apns-push-type": "background",
+              "apns-priority": "5"
+            },
+            "payload": {
+              "aps": {
+                "content-available": 1
+              }
+            }
+          },
+          "priority": "high",
+          "content_available": true,
+          "to": "eKsG4H57oUi9qsgz7XGRXq:APA91bE2QlE3044RlNPN-fySLXYn8C_q4H8E-0zcTZbDr_H58UXILufy-2-CJRQdVEZtrajC7B_bnGO6E1ynbQPN4H-pq8NcvfDRV_97XXkZVVHbAs5Wc3JLG7ZUm6bqme3yiRy0yMfX"
+        }
+    ]
+}
