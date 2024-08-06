@@ -28,7 +28,7 @@ struct SlideView: View {
             }
             .padding(.zero)
             
-            Text(selectedItem?.assetMeta?.title ?? "")
+            Text("LSG add six players at the auction to bolster the squad ahead of IPL 2024")
                 .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
                 .font(.custom(UIFont.CustomFont.hindBold.rawValue, size: 20))
                 .padding(.horizontal, 15)

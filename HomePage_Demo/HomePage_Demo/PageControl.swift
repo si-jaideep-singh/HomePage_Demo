@@ -30,7 +30,7 @@ struct PageControl: View {
         HStack(spacing: 8) {
             ForEach(0..<numberOfPages, id: \.self) { index in
                 Circle()
-                    .fill(index == currentPage ? Color.primary : Color.secondary)
+                    .fill(index == currentPage ?  Color(UIColor.getAppColor(colorName: .orange_F18700)) : Color.secondary)
                     .frame(width: 8, height: 8)
             }
         }

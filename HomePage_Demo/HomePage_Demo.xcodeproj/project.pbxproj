@@ -28,6 +28,9 @@
 		81881ABB2C60BD5A00CD2F94 /* SIFeedsShowcaseListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881A9D2C60BD5600CD2F94 /* SIFeedsShowcaseListing.swift */; };
 		81881ABC2C60BD5A00CD2F94 /* SILayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881A9E2C60BD5600CD2F94 /* SILayoutBuilder.swift */; };
 		81881AEF2C60C68100CD2F94 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881AEE2C60C68100CD2F94 /* SlideView.swift */; };
+		81D2E9B62C61EADB00B41935 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B52C61EADB00B41935 /* Fixtures.swift */; };
+		81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B72C6209B400B41935 /* StandingView.swift */; };
+		81D2E9BA2C620EBC00B41935 /* StandingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */; };
 		81E82B0B2C60D7A40034434C /* HomeMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E82B0A2C60D7A40034434C /* HomeMainView.swift */; };
 		81E82B0D2C60DC990034434C /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E82B0C2C60DC990034434C /* PageControl.swift */; };
 		81E82B0F2C60DD230034434C /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E82B0E2C60DD230034434C /* SliderView.swift */; };
@@ -150,6 +153,9 @@
 		81881A9D2C60BD5600CD2F94 /* SIFeedsShowcaseListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIFeedsShowcaseListing.swift; sourceTree = "<group>"; };
 		81881A9E2C60BD5600CD2F94 /* SILayoutBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SILayoutBuilder.swift; sourceTree = "<group>"; };
 		81881AEE2C60C68100CD2F94 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		81D2E9B52C61EADB00B41935 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
+		81D2E9B72C6209B400B41935 /* StandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingView.swift; sourceTree = "<group>"; };
+		81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingHeaderView.swift; sourceTree = "<group>"; };
 		81E82B0A2C60D7A40034434C /* HomeMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainView.swift; sourceTree = "<group>"; };
 		81E82B0C2C60DC990034434C /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		81E82B0E2C60DD230034434C /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
@@ -339,6 +345,9 @@
 			isa = PBXGroup;
 			children = (
 				81881AEE2C60C68100CD2F94 /* SlideView.swift */,
+				81D2E9B52C61EADB00B41935 /* Fixtures.swift */,
+				81D2E9B72C6209B400B41935 /* StandingView.swift */,
+				81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -853,6 +862,7 @@
 				81E82B712C60EB720034434C /* Double+Ext.swift in Sources */,
 				81E82B932C60EB720034434C /* ReCaptchaVM.swift in Sources */,
 				81E82B742C60EB720034434C /* UICollectionView+Ext.swift in Sources */,
+				81D2E9B62C61EADB00B41935 /* Fixtures.swift in Sources */,
 				81881A5F2C60AECE00CD2F94 /* HomePage_DemoApp.swift in Sources */,
 				81E82B812C60EB720034434C /* FLPModels.swift in Sources */,
 				81E82B8F2C60EB720034434C /* KeychainManager.swift in Sources */,
@@ -892,8 +902,10 @@
 				81E82B6A2C60EB720034434C /* ThinWormHeadsDrawer.swift in Sources */,
 				81E82B982C60EB720034434C /* CountryViewModel.swift in Sources */,
 				81E82B6F2C60EB720034434C /* CommonUtilities.swift in Sources */,
+				81D2E9BA2C620EBC00B41935 /* StandingHeaderView.swift in Sources */,
 				81E82B7F2C60EB720034434C /* FirebaseInteractor.swift in Sources */,
 				81E82B632C60EB720034434C /* InfiniteScrollingDrawer.swift in Sources */,
+				81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */,
 				81881AB72C60BD5A00CD2F94 /* SIFeedsServiceInteractor.swift in Sources */,
 				81E82B7B2C60EB720034434C /* UIView+Ext.swift in Sources */,
 				81E82B6C2C60EB720034434C /* Array+Ext.swift in Sources */,

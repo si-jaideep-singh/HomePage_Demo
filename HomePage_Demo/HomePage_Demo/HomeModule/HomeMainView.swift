@@ -20,6 +20,7 @@ struct HomeMainView: View {
             
             VStack(spacing :20){
                 SliderView(slides: slides)
+                Fixtures()
                
                 
             }
