@@ -8,31 +8,8 @@
 import SwiftUI
 
 struct Fixtures: View {
+//   @StateObject var viewmodel = FixturesVM()
     var body: some View {
-        
-        
-        HStack{
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("Fixtures")
-            })
-            .frame(width: 167,height: 46)
-            .background(Color(AppColorName.orange_F18700.rawValue))
-            .foregroundColor(Color(AppColorName.white_FFFFFF .rawValue))
-            .cornerRadius(10)
-           
-            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                Text("Standing")
-                    .frame(width: 167,height: 46)
-                    .background(Color(AppColorName.black_1A1A1A.rawValue))
-                    .foregroundColor(Color(AppColorName.black_999999.rawValue))
-                    .cornerRadius(10)
-                   
-                   
-                
-                    
-            })
-        }
-        
         VStack(spacing : 20) {
         
          Image("fixtures_live")
@@ -111,7 +88,7 @@ struct Fixtures: View {
             .padding(.vertical, 10)
             
            
-            Text("Lucknow Super Giants needs 10 runs in 6 balls")
+            Text("Jaideep")
                 .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
                 .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 12))
                 .padding()
@@ -144,5 +121,7 @@ struct Fixtures: View {
 
 #Preview {
     Fixtures()
+        
+        
 }
 
