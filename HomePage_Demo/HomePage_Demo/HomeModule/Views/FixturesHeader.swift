@@ -17,27 +17,30 @@ struct FixturesHeader: View {
                 Button(action: {
                     self.selectedTab = 0
                 }, label: {
-                    Text("Fixtures")
+                    Text("Videos")
+                        .frame(width: 167, height: 47)
+                        .background(self.selectedTab == 0 ? Color(AppColorName.orange_F18700.rawValue) : Color.clear)
+                        .foregroundColor(self.selectedTab == 0 ? Color(AppColorName.white_FFFFFF.rawValue) : Color(AppColorName.white_FFFFFF.rawValue))
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(self.selectedTab == 0 ? Color(AppColorName.orange_F18700.rawValue) : Color(AppColorName.white_FFFFFF.rawValue), lineWidth: 1)
+                        )
                 })
-                .frame(width: 167, height: 46)
-                .background(self.selectedTab == 0 ? Color(AppColorName.orange_F18700.rawValue) : Color(AppColorName.black_1A1A1A.rawValue))
-                    
-                .foregroundColor(self.selectedTab == 0 ? Color(AppColorName.white_FFFFFF .rawValue) : Color(AppColorName.black_1A1A1A.rawValue))
-
-                .cornerRadius(10)
 
                 Button(action: {
                     self.selectedTab = 1
                 }, label: {
                     Text("Standing")
-                })
-                .frame(width: 167, height: 46)
-                .background(self.selectedTab == 1 ? Color(AppColorName.orange_F18700.rawValue) : Color(AppColorName.black_1A1A1A.rawValue))
-                    
-                .foregroundColor(self.selectedTab == 1 ? Color(AppColorName.white_FFFFFF .rawValue) : Color(AppColorName.black_1A1A1A.rawValue))
-
-                .cornerRadius(10)
-            }
+                        .frame(width: 167, height: 47)
+                        .background(self.selectedTab == 1 ? Color(AppColorName.orange_F18700.rawValue) : Color.clear)
+                        .foregroundColor(self.selectedTab == 1 ? Color(AppColorName.white_FFFFFF.rawValue) : Color(AppColorName.white_FFFFFF.rawValue))
+                        .cornerRadius(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 10)
+                                .stroke(self.selectedTab == 1 ? Color(AppColorName.orange_F18700.rawValue) : Color(AppColorName.white_FFFFFF.rawValue), lineWidth: 1)
+                        )
+                })            }
             
             if selectedTab == 0 {
                 Fixtures()

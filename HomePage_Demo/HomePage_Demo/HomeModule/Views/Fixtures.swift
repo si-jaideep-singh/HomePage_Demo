@@ -88,7 +88,7 @@ struct Fixtures: View {
             .padding(.vertical, 10)
             
            
-            Text("Jaideep")
+            Text("Lucknow Super Giants needs 10 runs in 6 balls")
                 .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
                 .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 12))
                 .padding()

@@ -31,6 +31,18 @@
 		81BB3A142C624157003B2CFA /* SquadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A132C624157003B2CFA /* SquadView.swift */; };
 		81BB3A162C624234003B2CFA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A152C624234003B2CFA /* NewsView.swift */; };
 		81BB3A192C6253CB003B2CFA /* NewsSmalllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */; };
+		81BB3A1B2C634AFC003B2CFA /* NewsLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A1A2C634AFC003B2CFA /* NewsLargeView.swift */; };
+		81BB3A1D2C635A2D003B2CFA /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A1C2C635A2D003B2CFA /* PhotosView.swift */; };
+		81BB3A202C635A4F003B2CFA /* PhotosSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A1F2C635A4F003B2CFA /* PhotosSmallView.swift */; };
+		81BB3A222C635A61003B2CFA /* PhotosLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A212C635A61003B2CFA /* PhotosLargeView.swift */; };
+		81BB3A242C636190003B2CFA /* ContentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A232C636190003B2CFA /* ContentHeader.swift */; };
+		81BB3A272C63631B003B2CFA /* VideosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A262C63631B003B2CFA /* VideosView.swift */; };
+		81BB3A292C63632B003B2CFA /* VideosSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A282C63632B003B2CFA /* VideosSmallView.swift */; };
+		81BB3A2B2C63633B003B2CFA /* VideosLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A2A2C63633B003B2CFA /* VideosLargeView.swift */; };
+		81BB3A2D2C638764003B2CFA /* SquadHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A2C2C638764003B2CFA /* SquadHeaderView.swift */; };
+		81BB3A2F2C63897F003B2CFA /* SquadMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A2E2C63897F003B2CFA /* SquadMainView.swift */; };
+		81BB3A322C63AC70003B2CFA /* PollOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A312C63AC70003B2CFA /* PollOptionView.swift */; };
+		81BB3A342C63AC9C003B2CFA /* PollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A332C63AC9C003B2CFA /* PollView.swift */; };
 		81D2E9B62C61EADB00B41935 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B52C61EADB00B41935 /* Fixtures.swift */; };
 		81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B72C6209B400B41935 /* StandingView.swift */; };
 		81D2E9BA2C620EBC00B41935 /* StandingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */; };
@@ -163,6 +175,18 @@
 		81BB3A132C624157003B2CFA /* SquadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadView.swift; sourceTree = "<group>"; };
 		81BB3A152C624234003B2CFA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSmalllView.swift; sourceTree = "<group>"; };
+		81BB3A1A2C634AFC003B2CFA /* NewsLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLargeView.swift; sourceTree = "<group>"; };
+		81BB3A1C2C635A2D003B2CFA /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		81BB3A1F2C635A4F003B2CFA /* PhotosSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosSmallView.swift; sourceTree = "<group>"; };
+		81BB3A212C635A61003B2CFA /* PhotosLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosLargeView.swift; sourceTree = "<group>"; };
+		81BB3A232C636190003B2CFA /* ContentHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeader.swift; sourceTree = "<group>"; };
+		81BB3A262C63631B003B2CFA /* VideosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosView.swift; sourceTree = "<group>"; };
+		81BB3A282C63632B003B2CFA /* VideosSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosSmallView.swift; sourceTree = "<group>"; };
+		81BB3A2A2C63633B003B2CFA /* VideosLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosLargeView.swift; sourceTree = "<group>"; };
+		81BB3A2C2C638764003B2CFA /* SquadHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadHeaderView.swift; sourceTree = "<group>"; };
+		81BB3A2E2C63897F003B2CFA /* SquadMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadMainView.swift; sourceTree = "<group>"; };
+		81BB3A312C63AC70003B2CFA /* PollOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollOptionView.swift; sourceTree = "<group>"; };
+		81BB3A332C63AC9C003B2CFA /* PollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollView.swift; sourceTree = "<group>"; };
 		81D2E9B52C61EADB00B41935 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
 		81D2E9B72C6209B400B41935 /* StandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingView.swift; sourceTree = "<group>"; };
 		81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingHeaderView.swift; sourceTree = "<group>"; };
@@ -360,6 +384,9 @@
 		81881A892C60AFC100CD2F94 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				81BB3A302C63AC5A003B2CFA /* Poll */,
+				81BB3A252C63630B003B2CFA /* Videos */,
+				81BB3A1E2C635A34003B2CFA /* Photos */,
 				81BB3A172C6253B6003B2CFA /* News */,
 				81881AEE2C60C68100CD2F94 /* SlideView.swift */,
 				81D2E9B52C61EADB00B41935 /* Fixtures.swift */,
@@ -367,6 +394,9 @@
 				81D2E9B72C6209B400B41935 /* StandingView.swift */,
 				81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */,
 				81BB3A132C624157003B2CFA /* SquadView.swift */,
+				81BB3A2E2C63897F003B2CFA /* SquadMainView.swift */,
+				81BB3A2C2C638764003B2CFA /* SquadHeaderView.swift */,
+				81BB3A232C636190003B2CFA /* ContentHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -454,8 +484,38 @@
 			children = (
 				81BB3A152C624234003B2CFA /* NewsView.swift */,
 				81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */,
+				81BB3A1A2C634AFC003B2CFA /* NewsLargeView.swift */,
 			);
 			path = News;
+			sourceTree = "<group>";
+		};
+		81BB3A1E2C635A34003B2CFA /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				81BB3A1C2C635A2D003B2CFA /* PhotosView.swift */,
+				81BB3A1F2C635A4F003B2CFA /* PhotosSmallView.swift */,
+				81BB3A212C635A61003B2CFA /* PhotosLargeView.swift */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		81BB3A252C63630B003B2CFA /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				81BB3A262C63631B003B2CFA /* VideosView.swift */,
+				81BB3A282C63632B003B2CFA /* VideosSmallView.swift */,
+				81BB3A2A2C63633B003B2CFA /* VideosLargeView.swift */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		81BB3A302C63AC5A003B2CFA /* Poll */ = {
+			isa = PBXGroup;
+			children = (
+				81BB3A312C63AC70003B2CFA /* PollOptionView.swift */,
+				81BB3A332C63AC9C003B2CFA /* PollView.swift */,
+			);
+			path = Poll;
 			sourceTree = "<group>";
 		};
 		81E82B102C60E6560034434C /* ViewModel */ = {
@@ -870,8 +930,10 @@
 			files = (
 				81E82B802C60EB720034434C /* FirebaseStaticTexts.swift in Sources */,
 				81E82B952C60EB720034434C /* CommonEnums.swift in Sources */,
+				81BB3A272C63631B003B2CFA /* VideosView.swift in Sources */,
 				81E82B762C60EB720034434C /* UIDevice+Ext.swift in Sources */,
 				81881ABA2C60BD5A00CD2F94 /* SIFeedsPodcastListing.swift in Sources */,
+				81BB3A2B2C63633B003B2CFA /* VideosLargeView.swift in Sources */,
 				81E82B882C60EB720034434C /* ButtonWithRightIcon.swift in Sources */,
 				81881AB92C60BD5A00CD2F94 /* SIFeedsListing.swift in Sources */,
 				81E82B612C60EB720034434C /* ExtendedDotDrawer.swift in Sources */,
@@ -879,6 +941,7 @@
 				81E82B5D2C60EB720034434C /* ColorBlendDrawer.swift in Sources */,
 				81E82B8A2C60EB720034434C /* ToolTipButton.swift in Sources */,
 				81E82B962C60EB720034434C /* CommonParameters.swift in Sources */,
+				81BB3A1D2C635A2D003B2CFA /* PhotosView.swift in Sources */,
 				81E82B662C60EB720034434C /* ScrollingDrawer.swift in Sources */,
 				81E82B602C60EB720034434C /* DropDrawer.swift in Sources */,
 				81D2E9BC2C6226D600B41935 /* FixturesViewModel.swift in Sources */,
@@ -899,11 +962,13 @@
 				81E82B8F2C60EB720034434C /* KeychainManager.swift in Sources */,
 				81E82B862C60EB720034434C /* BorderedTransparentTextfield.swift in Sources */,
 				81E82B6D2C60EB720034434C /* Collection+Ext.swift in Sources */,
+				81BB3A342C63AC9C003B2CFA /* PollView.swift in Sources */,
 				81881AB52C60BD5A00CD2F94 /* SIFeedsEnums.swift in Sources */,
 				81E82B0F2C60DD230034434C /* SliderView.swift in Sources */,
 				81881AEF2C60C68100CD2F94 /* SlideView.swift in Sources */,
 				81E82B122C60E6710034434C /* HomeViewModel.swift in Sources */,
 				81BB3A142C624157003B2CFA /* SquadView.swift in Sources */,
+				81BB3A2F2C63897F003B2CFA /* SquadMainView.swift in Sources */,
 				81E82B842C60EB720034434C /* PlayerBioList.swift in Sources */,
 				81881ABC2C60BD5A00CD2F94 /* SILayoutBuilder.swift in Sources */,
 				81E82B732C60EB720034434C /* String+Ext.swift in Sources */,
@@ -915,10 +980,13 @@
 				81BB3A162C624234003B2CFA /* NewsView.swift in Sources */,
 				81881AB82C60BD5A00CD2F94 /* SIFeedsDetailListing.swift in Sources */,
 				81E82B5E2C60EB720034434C /* ColorUtils.swift in Sources */,
+				81BB3A2D2C638764003B2CFA /* SquadHeaderView.swift in Sources */,
 				81E82B6E2C60EB720034434C /* CommonImagePicker.swift in Sources */,
 				81881AB62C60BD5A00CD2F94 /* SIFeedsStorage.swift in Sources */,
+				81BB3A242C636190003B2CFA /* ContentHeader.swift in Sources */,
 				81E82B992C60EB720034434C /* IssuePointsOnAssetsRequest.swift in Sources */,
 				81E82B652C60EB720034434C /* ScaleDrawer.swift in Sources */,
+				81BB3A292C63632B003B2CFA /* VideosSmallView.swift in Sources */,
 				81E82B782C60EB720034434C /* UIImage+Ext.swift in Sources */,
 				81E82B872C60EB720034434C /* BottomCornerRadiusButton.swift in Sources */,
 				81E82B772C60EB720034434C /* UIFont+Ext.swift in Sources */,
@@ -930,6 +998,7 @@
 				81E82B642C60EB720034434C /* JumpDrawer.swift in Sources */,
 				81E82B972C60EB720034434C /* Constants.swift in Sources */,
 				81E82B822C60EB720034434C /* MatchCenterConfigModel.swift in Sources */,
+				81BB3A222C635A61003B2CFA /* PhotosLargeView.swift in Sources */,
 				81E82B7E2C60EB720034434C /* URLRequest+Ext.swift in Sources */,
 				81881ABB2C60BD5A00CD2F94 /* SIFeedsShowcaseListing.swift in Sources */,
 				81E82B622C60EB720034434C /* InfiniteDrawer.swift in Sources */,
@@ -938,9 +1007,11 @@
 				81E82B6F2C60EB720034434C /* CommonUtilities.swift in Sources */,
 				81D2E9BA2C620EBC00B41935 /* StandingHeaderView.swift in Sources */,
 				81D2E9C02C62277700B41935 /* CommonContentMatchModels.swift in Sources */,
+				81BB3A202C635A4F003B2CFA /* PhotosSmallView.swift in Sources */,
 				81E82B7F2C60EB720034434C /* FirebaseInteractor.swift in Sources */,
 				81E82B632C60EB720034434C /* InfiniteScrollingDrawer.swift in Sources */,
 				81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */,
+				81BB3A322C63AC70003B2CFA /* PollOptionView.swift in Sources */,
 				81D2E9C22C623AC300B41935 /* FixturesHeader.swift in Sources */,
 				81881AB72C60BD5A00CD2F94 /* SIFeedsServiceInteractor.swift in Sources */,
 				81E82B7B2C60EB720034434C /* UIView+Ext.swift in Sources */,
@@ -949,6 +1020,7 @@
 				81E82B692C60EB720034434C /* ThinWormDrawer.swift in Sources */,
 				81E82B792C60EB720034434C /* UISwitch+Ext .swift in Sources */,
 				81E82B852C60EB720034434C /* SocialLinkModel.swift in Sources */,
+				81BB3A1B2C634AFC003B2CFA /* NewsLargeView.swift in Sources */,
 				81E82B5F2C60EB720034434C /* DrawerProtocol.swift in Sources */,
 				81E82B9E2C60EF400034434C /* FilterListingModel.swift in Sources */,
 				81E82B6B2C60EB720034434C /* WormDrawer.swift in Sources */,

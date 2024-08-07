@@ -1,34 +1,26 @@
 //
-//  NewsSmalllView.swift
+//  PhotosSmallView.swift
 //  HomePage_Demo
 //
-//  Created by Jaideep Singh on 06/08/24.
+//  Created by Jaideep Singh on 07/08/24.
 //
 
 import SwiftUI
 
-struct NewsSmalllView: View {
+struct PhotosSmalllView: View {
     var body: some View {
-       
+        VStack(alignment:.leading){
             HStack{
-                ZStack(alignment : .bottomLeading){
-                    Image("BoardMembers")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(10.0)
-                    Text("5 Mins Read")
-                        .frame(width: 77,height: 17)
-                        .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
-                        .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 11))
-                        .background(Color(AppColorName.black_000000.rawValue).opacity(0.8))
-                        .cornerRadius(2)
+                Image("BoardMembers")
+                    .resizable()
+                    .scaledToFit()
+//                    .frame(width:152,height: 114)
+                    .cornerRadius(10.0)
                     
-                        
                     
-                }
              
-
-                 VStack(alignment : .leading, spacing :10){
+               
+                VStack(alignment : .leading, spacing :10){
                     Image("menu_icon_2")
                       
                     Text("IPL Playoffs Take 2: Comeback Heroes Lucknow Super Giants Take On ")
@@ -48,21 +40,21 @@ struct NewsSmalllView: View {
                     .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 12))
               
                }
-                .frame(width:183,height: 116)
+                .frame(width:183,height: 114)
                 .padding(.horizontal,10)
                
-//                Spacer()
+                Spacer()
             }
             
            
-            .frame(width: 340,height: 116)
+            .frame(width: 345,height: 116)
             .background(Color(AppColorName.black_1A1A1A.rawValue))
             
             
         }
     }
-
+}
 
 #Preview {
-    NewsSmalllView()
+    PhotosSmalllView()
 }

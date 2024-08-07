@@ -1,13 +1,13 @@
 //
-//  NewsSmalllView.swift
+//  VideosSmallView.swift
 //  HomePage_Demo
 //
-//  Created by Jaideep Singh on 06/08/24.
+//  Created by Jaideep Singh on 07/08/24.
 //
 
 import SwiftUI
 
-struct NewsSmalllView: View {
+struct VideosSmalllView: View {
     var body: some View {
        
             HStack{
@@ -64,5 +64,5 @@ struct NewsSmalllView: View {
 
 
 #Preview {
-    NewsSmalllView()
+    VideosSmalllView()
 }

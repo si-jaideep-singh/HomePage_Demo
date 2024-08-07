@@ -1,20 +1,20 @@
 //
-//  NewsView.swift
+//  PhotosView.swift
 //  HomePage_Demo
 //
-//  Created by Jaideep Singh on 06/08/24.
+//  Created by Jaideep Singh on 07/08/24.
 //
 
 import SwiftUI
 
-struct NewsView: View {
+struct PhotosView: View {
     var body: some View {
-       NewsLargeView()
+       PhotosLargeView()
         Divider()
             .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
         ForEach(0..<4) {
             _ in
-            NewsSmalllView()
+            PhotosSmalllView()
             Divider()
                 .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
         }
@@ -24,5 +24,5 @@ struct NewsView: View {
 }
 
 #Preview {
-    NewsView()
+    PhotosView()
 }
