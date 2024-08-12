@@ -1,10 +1,3 @@
-//
-//  ServiceInteractor.swift
-//  SIListing
-//
-//  Created by Siddharth Daga on 4/10/19.
-//  Copyright © 2019 Sportz Interactive. All rights reserved.
-//
 
 import Foundation
 

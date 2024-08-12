@@ -6,7 +6,7 @@
 //
 import SwiftUI
 struct PollOptionView: View {
-    let option: PollOption
+    let option: PollOptions
     
     var body: some View {
         HStack {
@@ -24,9 +24,11 @@ struct PollOptionView: View {
         .padding(.horizontal, 8)
     }
 }
+
+
 import SwiftUI
 
-struct PollOption: Identifiable {
+struct PollOptions: Identifiable {
     let id = UUID()
     let name: String
     let percentage: CGFloat

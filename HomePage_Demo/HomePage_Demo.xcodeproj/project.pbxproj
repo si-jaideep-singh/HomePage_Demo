@@ -28,6 +28,9 @@
 		81881ABB2C60BD5A00CD2F94 /* SIFeedsShowcaseListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881A9D2C60BD5600CD2F94 /* SIFeedsShowcaseListing.swift */; };
 		81881ABC2C60BD5A00CD2F94 /* SILayoutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881A9E2C60BD5600CD2F94 /* SILayoutBuilder.swift */; };
 		81881AEF2C60C68100CD2F94 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81881AEE2C60C68100CD2F94 /* SlideView.swift */; };
+		81AE293B2C69F6D3006FD76D /* ArticleSmallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE293A2C69F6D3006FD76D /* ArticleSmallView.swift */; };
+		81AE293D2C69F782006FD76D /* ArticleLargeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE293C2C69F782006FD76D /* ArticleLargeView.swift */; };
+		81AE293F2C6A194A006FD76D /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE293E2C6A194A006FD76D /* ArticleViewModel.swift */; };
 		81BB3A142C624157003B2CFA /* SquadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A132C624157003B2CFA /* SquadView.swift */; };
 		81BB3A162C624234003B2CFA /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A152C624234003B2CFA /* NewsView.swift */; };
 		81BB3A192C6253CB003B2CFA /* NewsSmalllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */; };
@@ -43,6 +46,11 @@
 		81BB3A2F2C63897F003B2CFA /* SquadMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A2E2C63897F003B2CFA /* SquadMainView.swift */; };
 		81BB3A322C63AC70003B2CFA /* PollOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A312C63AC70003B2CFA /* PollOptionView.swift */; };
 		81BB3A342C63AC9C003B2CFA /* PollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A332C63AC9C003B2CFA /* PollView.swift */; };
+		81BB3A472C64A030003B2CFA /* SquadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A462C64A030003B2CFA /* SquadModel.swift */; };
+		81BB3A492C64A076003B2CFA /* StandingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A482C64A076003B2CFA /* StandingModel.swift */; };
+		81BB3A4B2C64A0D0003B2CFA /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A4A2C64A0D0003B2CFA /* QuizModel.swift */; };
+		81BB3A4D2C64A151003B2CFA /* QuizSubmitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A4C2C64A151003B2CFA /* QuizSubmitResponse.swift */; };
+		81BB3A512C64A5C3003B2CFA /* QuizSubmitRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BB3A502C64A5C3003B2CFA /* QuizSubmitRequest.swift */; };
 		81D2E9B62C61EADB00B41935 /* Fixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B52C61EADB00B41935 /* Fixtures.swift */; };
 		81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B72C6209B400B41935 /* StandingView.swift */; };
 		81D2E9BA2C620EBC00B41935 /* StandingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */; };
@@ -172,6 +180,9 @@
 		81881A9D2C60BD5600CD2F94 /* SIFeedsShowcaseListing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIFeedsShowcaseListing.swift; sourceTree = "<group>"; };
 		81881A9E2C60BD5600CD2F94 /* SILayoutBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SILayoutBuilder.swift; sourceTree = "<group>"; };
 		81881AEE2C60C68100CD2F94 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		81AE293A2C69F6D3006FD76D /* ArticleSmallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleSmallView.swift; sourceTree = "<group>"; };
+		81AE293C2C69F782006FD76D /* ArticleLargeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleLargeView.swift; sourceTree = "<group>"; };
+		81AE293E2C6A194A006FD76D /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		81BB3A132C624157003B2CFA /* SquadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadView.swift; sourceTree = "<group>"; };
 		81BB3A152C624234003B2CFA /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSmalllView.swift; sourceTree = "<group>"; };
@@ -187,6 +198,12 @@
 		81BB3A2E2C63897F003B2CFA /* SquadMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadMainView.swift; sourceTree = "<group>"; };
 		81BB3A312C63AC70003B2CFA /* PollOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollOptionView.swift; sourceTree = "<group>"; };
 		81BB3A332C63AC9C003B2CFA /* PollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollView.swift; sourceTree = "<group>"; };
+		81BB3A462C64A030003B2CFA /* SquadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadModel.swift; sourceTree = "<group>"; };
+		81BB3A482C64A076003B2CFA /* StandingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingModel.swift; sourceTree = "<group>"; };
+		81BB3A4A2C64A0D0003B2CFA /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		81BB3A4C2C64A151003B2CFA /* QuizSubmitResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSubmitResponse.swift; sourceTree = "<group>"; };
+		81BB3A4E2C64A350003B2CFA /* QuizServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizServiceManager.swift; sourceTree = "<group>"; };
+		81BB3A502C64A5C3003B2CFA /* QuizSubmitRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSubmitRequest.swift; sourceTree = "<group>"; };
 		81D2E9B52C61EADB00B41935 /* Fixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixtures.swift; sourceTree = "<group>"; };
 		81D2E9B72C6209B400B41935 /* StandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingView.swift; sourceTree = "<group>"; };
 		81D2E9B92C620EBC00B41935 /* StandingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingHeaderView.swift; sourceTree = "<group>"; };
@@ -342,6 +359,7 @@
 				81E82B9D2C60EF400034434C /* FilterListingModel.swift */,
 				81D2E9BD2C62273100B41935 /* MatchScoreCard.swift */,
 				81D2E9BF2C62277700B41935 /* CommonContentMatchModels.swift */,
+				81BB3A4E2C64A350003B2CFA /* QuizServiceManager.swift */,
 			);
 			path = HomePage_Demo;
 			sourceTree = "<group>";
@@ -374,6 +392,7 @@
 		81881A882C60AFAB00CD2F94 /* HomeModule */ = {
 			isa = PBXGroup;
 			children = (
+				81BB3A352C649E8B003B2CFA /* Models */,
 				81E82B102C60E6560034434C /* ViewModel */,
 				81881A892C60AFC100CD2F94 /* Views */,
 				81E82B0A2C60D7A40034434C /* HomeMainView.swift */,
@@ -485,6 +504,9 @@
 				81BB3A152C624234003B2CFA /* NewsView.swift */,
 				81BB3A182C6253CB003B2CFA /* NewsSmalllView.swift */,
 				81BB3A1A2C634AFC003B2CFA /* NewsLargeView.swift */,
+				81AE293A2C69F6D3006FD76D /* ArticleSmallView.swift */,
+				81AE293C2C69F782006FD76D /* ArticleLargeView.swift */,
+				81AE293E2C6A194A006FD76D /* ArticleViewModel.swift */,
 			);
 			path = News;
 			sourceTree = "<group>";
@@ -516,6 +538,18 @@
 				81BB3A332C63AC9C003B2CFA /* PollView.swift */,
 			);
 			path = Poll;
+			sourceTree = "<group>";
+		};
+		81BB3A352C649E8B003B2CFA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81BB3A462C64A030003B2CFA /* SquadModel.swift */,
+				81BB3A482C64A076003B2CFA /* StandingModel.swift */,
+				81BB3A4A2C64A0D0003B2CFA /* QuizModel.swift */,
+				81BB3A4C2C64A151003B2CFA /* QuizSubmitResponse.swift */,
+				81BB3A502C64A5C3003B2CFA /* QuizSubmitRequest.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		81E82B102C60E6560034434C /* ViewModel */ = {
@@ -928,7 +962,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81BB3A512C64A5C3003B2CFA /* QuizSubmitRequest.swift in Sources */,
 				81E82B802C60EB720034434C /* FirebaseStaticTexts.swift in Sources */,
+				81BB3A492C64A076003B2CFA /* StandingModel.swift in Sources */,
 				81E82B952C60EB720034434C /* CommonEnums.swift in Sources */,
 				81BB3A272C63631B003B2CFA /* VideosView.swift in Sources */,
 				81E82B762C60EB720034434C /* UIDevice+Ext.swift in Sources */,
@@ -937,11 +973,13 @@
 				81E82B882C60EB720034434C /* ButtonWithRightIcon.swift in Sources */,
 				81881AB92C60BD5A00CD2F94 /* SIFeedsListing.swift in Sources */,
 				81E82B612C60EB720034434C /* ExtendedDotDrawer.swift in Sources */,
+				81AE293B2C69F6D3006FD76D /* ArticleSmallView.swift in Sources */,
 				81E82B832C60EB720034434C /* NotificationSettingModel.swift in Sources */,
 				81E82B5D2C60EB720034434C /* ColorBlendDrawer.swift in Sources */,
 				81E82B8A2C60EB720034434C /* ToolTipButton.swift in Sources */,
 				81E82B962C60EB720034434C /* CommonParameters.swift in Sources */,
 				81BB3A1D2C635A2D003B2CFA /* PhotosView.swift in Sources */,
+				81AE293D2C69F782006FD76D /* ArticleLargeView.swift in Sources */,
 				81E82B662C60EB720034434C /* ScrollingDrawer.swift in Sources */,
 				81E82B602C60EB720034434C /* DropDrawer.swift in Sources */,
 				81D2E9BC2C6226D600B41935 /* FixturesViewModel.swift in Sources */,
@@ -963,6 +1001,7 @@
 				81E82B862C60EB720034434C /* BorderedTransparentTextfield.swift in Sources */,
 				81E82B6D2C60EB720034434C /* Collection+Ext.swift in Sources */,
 				81BB3A342C63AC9C003B2CFA /* PollView.swift in Sources */,
+				81BB3A4D2C64A151003B2CFA /* QuizSubmitResponse.swift in Sources */,
 				81881AB52C60BD5A00CD2F94 /* SIFeedsEnums.swift in Sources */,
 				81E82B0F2C60DD230034434C /* SliderView.swift in Sources */,
 				81881AEF2C60C68100CD2F94 /* SlideView.swift in Sources */,
@@ -1010,11 +1049,14 @@
 				81BB3A202C635A4F003B2CFA /* PhotosSmallView.swift in Sources */,
 				81E82B7F2C60EB720034434C /* FirebaseInteractor.swift in Sources */,
 				81E82B632C60EB720034434C /* InfiniteScrollingDrawer.swift in Sources */,
+				81BB3A472C64A030003B2CFA /* SquadModel.swift in Sources */,
 				81D2E9B82C6209B400B41935 /* StandingView.swift in Sources */,
 				81BB3A322C63AC70003B2CFA /* PollOptionView.swift in Sources */,
 				81D2E9C22C623AC300B41935 /* FixturesHeader.swift in Sources */,
 				81881AB72C60BD5A00CD2F94 /* SIFeedsServiceInteractor.swift in Sources */,
+				81BB3A4B2C64A0D0003B2CFA /* QuizModel.swift in Sources */,
 				81E82B7B2C60EB720034434C /* UIView+Ext.swift in Sources */,
+				81AE293F2C6A194A006FD76D /* ArticleViewModel.swift in Sources */,
 				81E82B6C2C60EB720034434C /* Array+Ext.swift in Sources */,
 				81E82B7A2C60EB720034434C /* UITableView+Ext.swift in Sources */,
 				81E82B692C60EB720034434C /* ThinWormDrawer.swift in Sources */,

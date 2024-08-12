@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct HomePage_DemoApp: App {
+    @StateObject var viewModel = HomeVM()
+
     var body: some Scene {
         WindowGroup {
-          HomeMainView()
+            HomeMainView()
         }
     }
 }

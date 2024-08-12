@@ -15,7 +15,7 @@ struct SlideView: View {
                 Image("Overlay")
                     .resizable()
                     .scaledToFill()
-                    .frame(width: 325, height: 325)
+                    .frame(width: 330, height: 325)
                 
                 VStack(alignment: .center) {
                     Spacer()

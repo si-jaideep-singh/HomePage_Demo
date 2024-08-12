@@ -11,14 +11,28 @@ struct PhotosSmalllView: View {
     var body: some View {
         VStack(alignment:.leading){
             HStack{
-                Image("BoardMembers")
-                    .resizable()
-                    .scaledToFit()
-//                    .frame(width:152,height: 114)
-                    .cornerRadius(10.0)
-                    
-                    
-             
+                ZStack(alignment: .bottomLeading) {
+                               Image("BoardMembers")
+                                   .resizable()
+                                   .scaledToFit()
+                                   .cornerRadius(10.0)
+                               
+                    HStack(spacing : 5){
+                        Image("photoscount")
+                           
+                        Text("15")
+                            .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
+                            .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 14))
+                          
+                    }
+                  
+                    .background(Color(AppColorName.black_000000.rawValue).opacity(0.8))
+                    .cornerRadius(2)
+                    .padding(.bottom, 5)
+                    .padding(.leading, 5)
+                            
+                }
+                          
                
                 VStack(alignment : .leading, spacing :10){
                     Image("menu_icon_2")

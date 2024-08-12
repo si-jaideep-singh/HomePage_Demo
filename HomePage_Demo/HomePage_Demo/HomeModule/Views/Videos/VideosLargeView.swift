@@ -20,6 +20,10 @@ struct VideosLargeView: View {
                         .resizable()
                         .frame(width:346,height:193)
                         .scaledToFill()
+                       
+                    Image("Play")
+                        .padding(.top,50)
+                       
                 }
                
                

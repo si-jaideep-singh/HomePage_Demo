@@ -17,9 +17,6 @@ struct Fixtures: View {
                 .background(Color(AppColorName.green_3AAA35 .rawValue))
                 .cornerRadius(5)
                 
-                
-                
-            
             HStack {
                 Image("fixtures_bat_image")
                  Text("Match 3")
@@ -33,8 +30,7 @@ struct Fixtures: View {
                             .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
                             .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 12))
                     }
-                    
-                    HStack {
+                   HStack {
                         Image("fixtures_clock")
                         Text("19:30 (IST)")
                             .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
@@ -42,9 +38,6 @@ struct Fixtures: View {
                     }
                     
 }
-           
-            
-          
             HStack(spacing : 20) {
                 VStack {
                     Image("Team Logo")

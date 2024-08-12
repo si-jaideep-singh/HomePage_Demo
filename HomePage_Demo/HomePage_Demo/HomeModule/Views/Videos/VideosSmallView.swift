@@ -11,22 +11,26 @@ struct VideosSmalllView: View {
     var body: some View {
        
             HStack{
-                ZStack(alignment : .bottomLeading){
-                    Image("BoardMembers")
-                        .resizable()
-                        .scaledToFit()
-                        .cornerRadius(10.0)
-                    Text("5 Mins Read")
-                        .frame(width: 77,height: 17)
-                        .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
-                        .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 11))
-                        .background(Color(AppColorName.black_000000.rawValue).opacity(0.8))
-                        .cornerRadius(2)
-                    
-                        
-                    
-                }
-             
+                ZStack(alignment: .bottomLeading) {
+                               Image("BoardMembers")
+                                   .resizable()
+                                   .scaledToFit()
+                                   .cornerRadius(10.0)
+                               Image("Play")
+                                   .resizable()
+                                   .scaledToFit()
+                                   .frame(width: 40, height: 40)
+                                   .position(x: 50, y: 58)
+                               Text("5 Mins Read")
+                                   .padding(4)
+                                   .foregroundColor(Color(AppColorName.white_FFFFFF.rawValue))
+                                   .font(.custom(UIFont.CustomFont.hindSemibold.rawValue, size: 11))
+                                   .background(Color(AppColorName.black_000000.rawValue).opacity(0.8))
+                                   .cornerRadius(2)
+                                   .padding(.bottom, 5)
+                                   .padding(.leading, 5)
+                           }
+                          
 
                  VStack(alignment : .leading, spacing :10){
                     Image("menu_icon_2")

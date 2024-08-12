@@ -3,40 +3,45 @@
 ////  Lucknow Super Giants
 ////
 ////  Created by Tejas Kashid on 15/02/24.
-////
 //
-//import Foundation
-//
-//final class QuizServiceManager {
-//    static let shared = QuizServiceManager()
-//    
-//    func getQuizData(index: Int = 0, response: QuizSubmitResponse? = nil, isFirstLoad: Bool = true, entityMapId: String?, completion:@escaping(Result<[QuizContentDataDetail], NetworkErrors>) -> Void) {        
-//        
-//        let url = (FirebaseModelConfig.sharedFirebaseConfig.baseUrl ?? .blank) + (FirebaseModelConfig.sharedFirebaseConfig.getPollListingApi ?? .blank)
-//            .replacingOccurrences(of: SIParameterKeys.pollEntity.name, with: (entityMapId ?? .blank))
-//            .replacingOccurrences(of: SIParameterKeys.user_guid.name, with: UserDefaultsManager.shared.getUserGuid() ?? .blank)
-//        
-//                NetworkManager.shared.makeRequest(url: url,
-//                                                            type: Quiz.self,
-//                                                            headerType: .authenticationWithUserToken,
-//                                                            completion: { response in
-//                    switch response {
-//                    case .success(let returnedResponse):
-//                        let quizData = returnedResponse.content?.quizContentData ?? []
-//                        DispatchQueue.main.async {
-////                            GifyGifHud.dismiss()
-//                        }
-//                        completion(.success(quizData))
-//                    case .failure(let error):
-//                        DispatchQueue.main.async {
-////                            KKRToastView.showToast(withMessage: error.description)
-////                            GifyGifHud.dismiss()
-//                        }
-//                        completion(.failure(error))
-//                    }
-//                })
-//    }
-//    
+
+import Foundation
+
+final class QuizServiceManager {
+    static let shared = QuizServiceManager()
+    
+    protocol QuizUpdateDelegate: AnyObject {
+
+        func reloadQuizData(index: Int, response: QuizSubmitResponse?)
+    }
+    func getQuizData(index: Int = 0, response: QuizSubmitResponse? = nil, isFirstLoad: Bool = true, entityMapId: String?, completion:@escaping(Result<[QuizContentDataDetail], NetworkErrors>) -> Void) {
+        
+        let url = (FirebaseModelConfig.sharedFirebaseConfig.baseUrl ?? .blank) + (FirebaseModelConfig.sharedFirebaseConfig.getPollListingApi ?? .blank)
+            .replacingOccurrences(of: SIParameterKeys.pollEntity.name, with: (entityMapId ?? .blank))
+            .replacingOccurrences(of: SIParameterKeys.user_guid.name, with: UserDefaultsManager.shared.getUserGuid() ?? .blank)
+        
+                NetworkManager.shared.makeRequest(url: url,
+                                                            type: Quiz.self,
+                                                            headerType: .authenticationWithUserToken,
+                                                            completion: { response in
+                    switch response {
+                    case .success(let returnedResponse):
+                        let quizData = returnedResponse.content?.quizContentData ?? []
+                        DispatchQueue.main.async {
+//                            GifyGifHud.dismiss()
+                        }
+                        completion(.success(quizData))
+                    case .failure(let error):
+                        DispatchQueue.main.async {
+//                            KKRToastView.showToast(withMessage: error.description)
+//                            GifyGifHud.dismiss()
+                        }
+                        completion(.failure(error))
+                    }
+                })
+    }
+    
+    typealias Handler = (Bool, Any?, Any?, Error?) -> Void
 //    func submitPoll(parameter: QuizSubmitRequestParams,
 //                    delegate: QuizUpdateDelegate?,
 //                    currentIndex: Int,
@@ -69,5 +74,5 @@
 //            }
 //        }
 //    }
-//}
-//
+}
+

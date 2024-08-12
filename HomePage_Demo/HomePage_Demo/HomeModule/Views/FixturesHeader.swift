@@ -12,7 +12,7 @@ struct FixturesHeader: View {
     @State private var selectedTab: Int = 0
 
     var body: some View {
-        VStack {
+        VStack(spacing : 20) {
             HStack {
                 Button(action: {
                     self.selectedTab = 0

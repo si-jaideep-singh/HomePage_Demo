@@ -7,11 +7,11 @@
 import SwiftUI
 struct PollView: View {
     let pollQuestion: String = "Which Lucknow Super Giants spinner will pick more wickets for India at the IPL 2023?"
-    let options: [PollOption] = [
-        PollOption(name: "Ravi Bishnoi", percentage: 50, color: .blue),
-        PollOption(name: "Amit Mishra", percentage: 30, color: .gray),
-        PollOption(name: "M. Siddharth", percentage: 10, color: .gray),
-        PollOption(name: "Arshad Khan", percentage: 10, color: .gray)
+    let options: [PollOptions] = [
+        PollOptions(name: "Ravi Bishnoi", percentage: 50, color: .blue),
+        PollOptions(name: "Amit Mishra", percentage: 30, color: .gray),
+        PollOptions(name: "M. Siddharth", percentage: 10, color: .gray),
+        PollOptions(name: "Arshad Khan", percentage: 10, color: .gray)
     ]
     
     var body: some View {

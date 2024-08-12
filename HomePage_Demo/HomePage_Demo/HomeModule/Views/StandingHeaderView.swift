@@ -31,7 +31,7 @@ struct TableHeaderView: View {
 }
 
 struct TeamRowView: View {
-    let team: Team
+    let team: Teams
     
     var body: some View {
         HStack {
@@ -62,7 +62,7 @@ struct TeamRowView: View {
     TableHeaderView()
 }
 
-struct Team: Identifiable {
+struct Teams: Identifiable {
     let id = UUID()
     let position: String
     let name: String
